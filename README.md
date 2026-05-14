@@ -7,8 +7,9 @@ The goal of this phase of the project is to design classes and objects for your 
 Use the resources below to create a UML class diagram of a class that you will use in your final project and place the UML diagram here.
 
 ### Mermaid
-[Mermaid](https://mermaid.ai/open-source/syntax/classDiagram.html) allows users to create UML diagrams—such as flowcharts, sequence, class, and state diagrams, quickly using text. Here is is an example of the `Card` class that we created in a previous lab. Place your concrete class in the `src/` folder.
-The following code:
+[Mermaid](https://mermaid.ai/open-source/syntax/classDiagram.html) allows users to create UML diagrams—such as flowcharts, sequence, class, and state diagrams, quickly using text.
+
+Here is is an example of the `Card` class that we created in a previous lab.
 ```
 ```mermaid
 classDiagram
@@ -42,7 +43,7 @@ classDiagram
         +boolean equals(Card otherCard)
     }
 ```
-Renders like this
+The code above renders the following UML class diagram.
 ```mermaid
 classDiagram
     class Card {
